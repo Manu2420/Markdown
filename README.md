@@ -1,7 +1,5 @@
 # Markdown
 
-<p style="text-align: center; width: 400px"><img src="./img/markdown.svg"> </p>
-
 ![Markdown](./img/markdown.svg "Logo Markdown")
 
 - [Markdown](#markdown)
@@ -58,7 +56,7 @@ Los formatos de texto en Markdown son las distintas formas en que puedes resalta
 
 Para que un texto aparezca en negrita con ***Markdown*** se utilizan dos `**` o dos guiones bajos `__`, ambos deben colocarse al principio y al final del texto que se quiere resaltar.
 
-~~~text
+~~~md
 texto en __negrita__
 texto en **negrita**
 texto en ne__gri__ta
@@ -71,7 +69,7 @@ texto en **negr**ita
 
 Para agregar texto en cursiva con **Markdown** se utiliza un solo asterisco `*` o un solo guión bajo `_` tanto al inicio como al final de lo oración que quieres marcar como cursiva.
 
-~~~text
+~~~md
 Esto es un *texto en cursiva*.
 Esto es un texto parcialmente en cu*rsi*va.
 Esto es un _texto en cursiva_.
@@ -85,7 +83,7 @@ Esto es un *texto en cursiva*.
 
 Para que en texto esté resaltado tanto en negrita como en cursiva al mismo tiempo debes agregar tres asteriscos `***` o tres guiones bajos `___` antes y después de una palabra o de una frase.
 
-~~~text
+~~~md
 Esto es un ***texto en negrita y cursiva***.
 Esto es un ___texto en negrita y cursiva___.
 Esto es un texto parcialmente en ne***grita y cursi***va.
@@ -103,7 +101,7 @@ En **Markdown** puedes agregar tanto listas ordenadas como no ordenadas. Las lis
 
 Para agregar listas ordenadas en **Markdown** se debe agregar un número seguido de un punto `1.`, un espacio y el elemento de la lista. La lista no debe estar ordenada numéricamente, pero debe comenzar por el número `1`.
 
-~~~text
+~~~md
 1. Primer elemento
 2. Segundo elemento
 3. Tercer elemento
@@ -117,7 +115,7 @@ Para agregar listas ordenadas en **Markdown** se debe agregar un número seguido
 
 Para agregar listas no ordenadas en **Markdown** se debe agregar un guion `-`, un signo más `+` o un asterisco `*` delante de los elementos de la lista.
 
-~~~text
+~~~md
 - Primer elemento
 + Segundo elemento
 * Tercer elemento
@@ -133,7 +131,7 @@ Para agregar listas no ordenadas en **Markdown** se debe agregar un guion `-`, u
 
 También podemos crear `listas de tareas`, para crear una lista de tareas, se debe añadir como prefijo un guión y espacio, seguido de `[]` a los elementos de la lista. Para marcar una tarea como completada, usamos `[X]`.
 
-~~~text
+~~~md
 - [X] Tarea terminada
 - [ ] Tarea pendiente
 - [ ] Otra tarea por hacer
@@ -147,7 +145,7 @@ También podemos crear `listas de tareas`, para crear una lista de tareas, se de
 
 Puedes anidar las listas de diferentes tipos, incluyendo listas dentro de otras listas, ya sean ordenadas o no ordenadas. Para ello, los elementos de la lista anidada tendrán que tener una sangría de al menos cuatro espacios o una tabulación.
 
-~~~text
+~~~md
 1. Primer elemento
 2. Segundo elemento
     1. Elemento 2 1
@@ -161,7 +159,7 @@ Puedes anidar las listas de diferentes tipos, incluyendo listas dentro de otras 
    2. Elemento 2 2
 3. Tercer elemento
 
-~~~text
+~~~md
 * Primer elemento
 * Segundo elemento
     * Elemento 2 1
@@ -183,7 +181,7 @@ En **Markdown** también puedes definir bloques de código, tanto en línea como
 
 Para agregar código en línea en **Markdown** usa comillas invertidas ` `` ` alrededor del texto que quieres que tengo formato de código, por ejemplo:
 
-~~~text
+~~~md
 Use `git status` para listar todos los archivos nuevos o modificados que aún no se han confirmado.
 ~~~
 
@@ -191,7 +189,7 @@ Y se vería: Use `git status` para listar todos los archivos nuevos o modificado
 
 Para dar formato al código o al texto en su propio bloque diferenciado, use tres comillas invertidas ` ``` ` o tres virgulillas `~~~`.
 
-~~~text
+~~~md
 Para insertar las comillas invertidas, puedes utilizar Alt+96
 Para insertar las virgulillas, puedes utilizar Alt+126 
 ~~~
@@ -200,7 +198,7 @@ Podemos agregar un identificador opcional de idioma para habilitar el resaltado 
 
 El resaltado de sintaxis cambia el color y el estilo del código fuente para facilitar la lectura.
 
-~~~text
+~~~md
 Después de las 3 primeras ~ podemos resaltar la sintaxis del código:
 
 ```js
@@ -222,7 +220,7 @@ function sumar (a, b) {
 
 Podemos agregar notas al pie al contenido mediante esta sintaxis de corchetes `{}`:
 
-~~~text
+~~~md
 Aquí hay una nota al pie simple[^1]. 
 Una nota al pie también puede tener varias líneas[^2]. 
 
@@ -249,7 +247,7 @@ Use alertas solo cuando sean cruciales para el éxito del usuario y limite a uno
 
 Para agregar una alerta, use una línea blockquote `>` especial que especifique el tipo de alerta, seguido de la información de alerta en un blockquote estándar. Hay cinco tipos de alertas disponibles:
 
-~~~text
+~~~md
 > [!NOTE]
 > Información útil que los usuarios deberían conocer, incluso al hojear el contenido.
 
