@@ -1,5 +1,7 @@
 # Markdown
 
+<p style="text-align: center; width: 400px"><img src="./img/markdown.svg"> </p>
+
 ![Markdown](./img/markdown.svg "Logo Markdown")
 
 - [Markdown](#markdown)
@@ -122,7 +124,9 @@ Para agregar listas no ordenadas en **Markdown** se debe agregar un guion `-`, u
 ~~~
 
 - Primer elemento
+
 + Segundo elemento
+  
 * Tercer elemento
 
 ### Listas de tareas
